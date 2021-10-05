@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(232, 222, 222);
+}
+h1,
+h2,
+h3{
+    color: white;
+    
+}
+.Ofertas{
+    img{ height: 700px;
+       width: 100%;
+       object-fit: fill;
+    }
+    a{
+        position: absolute;
+        margin-top: 30rem;
+        margin-right: 80rem;
+    }
+    .swiper-pagination{
+        margin-bottom: 150px;
+      }
+}
+.ubicacion{
+    .Donde{
+        height: 5rem;
+        
+    }
+    iframe{
+        height: 400px;
+        width: 100%;
+    }
+}
+footer{
+    color: white;
+    a{
+        color: white;
+    }
+    
+    
+}
+
+@media (max-width: 600px) {
+    .Ofertas{
+        img{ height: 300px;
+           width: 100%;
+           object-fit: fill;
+        }
+        a{
+            position: absolute;
+            margin-top: -17rem;
+            margin-left: 45rem;
+        }
+        .swiper-pagination{
+            margin-bottom: 250px;
+          }
+    }
+
+    .ubicacion{
+        iframe{
+            height: 400px;
+            width: 100%;
+        }
+    }
+    
+}

@@ -1,0 +1,70 @@
+.main-banner{
+    height: 80vh;
+    position: relative;
+
+    .content-banner{
+        position: absolute;
+        bottom: 0;
+        left: 0;  
+        width: 30%;
+        @include media(xs){
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        } 
+    }
+
+    .custom-form{
+        width: 350px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20%;
+        padding: 2rem;
+        border-radius: 1rem;
+        background-color: $white-color;
+        @include media(xs){
+            display: none;
+        }
+        h2{
+            font-size: 1rem;
+        }
+        form{
+            font-family: $font-regular;
+            input[type=text],
+            input[type=tel],
+            input[type=mail],
+            textarea{
+                border: none;
+                border-bottom: 1px solid $primary-color;
+                width: 100%;
+                padding: 5px 0;
+            }
+            input[type=submit]{
+                background-color: $primary-color;
+                color: $white-color;
+                border: none;
+                padding: 0.5rem 2rem;
+                position: relative;
+                font-family: $font-bold;
+                text-transform: uppercase;
+                
+            }
+            .button-submit{
+                position: relative;
+                &:after{
+                    content: url(../images/iconos/right-arrow-fucsia.svg);
+                    color: red;
+                    width: 9px;
+                    height: 9px;
+                    position: absolute;
+                    top: 0;
+                    right: 15px;
+                    
+                }
+            }
+        }
+
+    }
+}

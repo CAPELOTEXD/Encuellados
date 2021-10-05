@@ -1,0 +1,37 @@
+
+.navbar,
+.navbar-expand-lg,
+.navbar-light
+{
+    background: linear-gradient(rgb(3, 65, 3) 35%, rgb(184, 175, 175) 100%);
+           a{
+                color: rgb(122, 208, 122) !important;
+            } 
+            a:hover{
+                color: rgb(200, 225, 200) !important;
+            }
+            
+}
+
+.logo{
+    position: relative;
+transition: all 3s ease;
+transform: perspective(600px);
+transform-origin: 100% 50%;
+transform-style: preserve-3d;
+img{
+    width: 200px;;
+}
+}
+.logo:hover{
+    transform: perspective(600px) rotateY(-360deg);
+}
+
+@media (max-width: 600px) {    
+    .logo{
+        transition: none;
+        img{
+            width: 100px;;
+        }
+    }    
+}

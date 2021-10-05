@@ -1,0 +1,31 @@
+.floating-whatsapp img {
+    position: fixed;
+    width: 75px;
+    right: 0px;
+    z-index: 5;
+    top: calc(80% - 80px/2);
+}
+.floating-insta img {
+    position: fixed;
+    width: 75px;
+    right: 0px;
+    z-index: 5;
+    top: calc(70% - 80px/2);
+}
+@media (max-width: 600px) {
+    .floating-whatsapp img {
+        position: fixed;
+        width: 50px;
+        right: 0px;
+        z-index: 5;
+         top: calc(80% - 80px/2); 
+    }
+    .floating-insta img {
+        position: fixed;
+        width: 50px;
+        right: 0px;
+        z-index: 5;
+         top: calc(70% - 80px/2); 
+    }   
+    
+}

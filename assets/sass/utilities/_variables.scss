@@ -1,0 +1,113 @@
+/* -------------------------------------------------------------------------- */
+/*                              COLORES DEL SITIO                             */
+/* -------------------------------------------------------------------------- */
+$primary-color:         #000000 !default; //NEGRO TÍTULOS
+$second-color:          #de2097 !default; //fucsia subtítulos
+$accent-color:          #a8a4a4 !default; //FLECHAS GRISES
+
+
+$light-color:          #ffeef4 !default;  //fondo nuestras marcas
+//$light-color:          #a8a4a4 !default;  //fondo nuestras marcas
+$white-color:            #ffffff !default; // Blanco
+
+
+/* -------------------------------------------------------------------------- */
+/*                                 BREAKPOINTS                                */
+/* -------------------------------------------------------------------------- */
+$breakpoint-xxs: 320px;
+$breakpoint-xs: 360px;
+$breakpoint-sm: 767px;
+$breakpoint-md: 1200px;
+$breakpoint-lg: 1360px;
+$breakpoint-xl: 1441px;
+
+/* --------------------------------- FUENTES -------------------------------- */
+
+@font-face {
+    font-family: 'Gotham Black';
+    src: url('../../fonts/Gotham-Black.eot');
+    src: url('../fonts/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff'),
+        url('../fonts/Gotham-Black.ttf') format('truetype'),
+        url('../fonts/Gotham-Black.svg#Gotham-Black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('../../fonts/Gotham-Bold.eot');
+    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff'),
+        url('../fonts/Gotham-Bold.ttf') format('truetype'),
+        url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('../../fonts/Gotham-Book.eot');
+    src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff'),
+        url('../fonts/Gotham-Book.ttf') format('truetype'),
+        url('../fonts/Gotham-Book.svg#Gotham-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Black';
+    src: url('../../fonts/Gotham-Black.eot');
+    src: url('../fonts/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff'),
+        url('../fonts/Gotham-Black.ttf') format('truetype'),
+        url('../fonts/Gotham-Black.svg#Gotham-Black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham BookItalic';
+    src: url('../../fonts/Gotham-BookItalic.eot');
+    src: url('../fonts/Gotham-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-BookItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BookItalic.woff') format('woff'),
+        url('../fonts/Gotham-BookItalic.ttf') format('truetype'),
+        url('../fonts/Gotham-BookItalic.svg#Gotham-BookItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Light';
+    src: url('../../fonts/Gotham-Light.eot');
+    src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Light.woff2') format('woff2'),
+        url('../fonts/Gotham-Light.woff') format('woff'),
+        url('../fonts/Gotham-Light.ttf') format('truetype'),
+        url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* --------------------------------- FUENTES -------------------------------- */
+
+$font-regular: 'Gotham Book'; // texto corrido
+
+$font-black: 'Gotham Black'; // títulos
+$font-bold: 'Gotham Bold'; // semitítulos
+$font-black: 'Gotham Black';
+$font-book-italic: 'Gotham BookItalic';
+
+/* ------------------------------- ROOT VALUES ------------------------------ */
